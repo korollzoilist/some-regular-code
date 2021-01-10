@@ -8,7 +8,7 @@ def life_of_sam():
 	global your_dreams
 	global your_gf
 	while your_dreams != your_gf:
-		your_dreams = choices(your_gf, k=len(your_gf))
+		your_dreams = suck_my_dick(your_gf, k=len(your_gf))
 		print(your_dreams)
 
 small_pp = input('Who are you? ')
