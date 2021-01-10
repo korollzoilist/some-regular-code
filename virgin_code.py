@@ -10,7 +10,7 @@ def life_of_sam():
 		print(your_dreams)
 
 small_pp = input('Who are you? ')
-if small_pp.lowercase() != 'smallPpPerson':
+if small_pp != 'smallPpPerson':
 	raise ModuleNotFoundError('Your pp is too big for this')
 else:
 	life_of_sam()
