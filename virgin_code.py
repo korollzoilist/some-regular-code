@@ -9,7 +9,7 @@ def life_of_sam():
 	global your_gf
 	while your_dreams != your_gf:
 		your_dreams = suck_my_dick(your_gf, k=len(your_gf))
-		print(your_dreams)
+		print(''.join(your_dreams))
 
 small_pp = input('Who are you? ')
 if small_pp != 'smallPpPerson':
