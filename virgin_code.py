@@ -5,6 +5,8 @@ your_gf = shit.shit1
 your_dreams = shit.shit2
 
 def life_of_sam():
+	global your_dreams
+	global your_gf
 	while your_dreams != your_gf:
 		your_dreams = choices(your_gf, k=len(your_gf))
 		print(your_dreams)
